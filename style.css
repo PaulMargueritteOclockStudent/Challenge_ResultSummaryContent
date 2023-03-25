@@ -3,7 +3,7 @@
 }
 
 .partietop {
-    background: linear-gradient(90deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%)); 
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsla(241, 81%, 54%)); 
     border: 1px solid ;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -16,7 +16,7 @@
 }
 
 .partietop-rond {
-    background: linear-gradient(90deg, ); 
+    background: linear-gradient(90deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)); 
     border: 1px solid ;
     width: 70px;
     height: 70px;
@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: 5%;
     
 }
@@ -51,52 +51,70 @@
 
 .partiebottom h1{
     font-size: 20px;
-}
-
-.reaction {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    border: 1px solid;
-    padding: 5px;
-    background-color: red;
-
-
+    margin-left: 5%;
+    color: hsl(224, 30%, 27%);
     
 }
 
-
-.memory {
+.red {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-    border: 1px solid;
+    border: 1px solid white;
     padding: 5px;
-    background-color: yellow;
-
+    background-color: hsla(0, 100%, 67%, 0.10);
+    font-weight: 700;
+    font-size: 18px; 
+    color: hsl(0, 100%, 67%);
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.verbal {
+
+.yellow {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-    border: 1px solid;
+    border: 1px solid white;
     padding: 5px;
-    background-color: green;
-    
+    background-color: hsl(39, 100%, 56%, 0.10);
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(39, 100%, 56%);
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.visual {
+.green {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-    border: 1px solid;
+    border: 1px solid white;
     padding: 5px;
-    background-color: blue;
-    
+    background-color: hsl(166, 100%, 37%, 0.10);
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(166, 100%, 37%);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: hsl(234, 85%, 45%, 0.10);
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .button-34 {
+
   background: #2f2f7e;
   border-radius: 999px;
   box-shadow: #2c2c74 0 10px 20px -10px;
@@ -116,5 +134,7 @@
   width: fit-content;
   word-break: break-word;
   border: 0;
-  margin-left: 30%;
+  width: 325px;
+  margin-left: 5%;
+  
 }
