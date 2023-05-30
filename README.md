@@ -16,6 +16,4 @@ Téléchargez ou clonez le dépôt
 Modifiez le fichier HTML pour y inclure vos propres informations
 Personnalisez les styles CSS pour correspondre à votre propre style et préférences
 
-# Auteur
 
-### Ce projet a été créé par [KushWolf].
